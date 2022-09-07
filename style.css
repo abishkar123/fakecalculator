@@ -1,0 +1,121 @@
+
+body{
+    margin: 0;
+    font-size: 1rem;
+}
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(65, 140, 164, 0.68) 94.63%, rgba(6, 19, 23, 0) 100%);
+}
+.calculator{
+    background: #484242;
+    width: 450px;
+    color: white;
+
+    
+    
+    gap: 1rem;
+    display:grid;
+    grid-template-areas: 
+    "display display display display" 
+    "ac c perc divide"
+    "btn7 btn8 btn9 btnx"
+    "btn4 btn5 btn6 minus"
+    "btn1 btn2 btn3 plus"
+    "btn0 btn0 dot equals";
+
+
+}
+.calculator div{
+    height: 50px;
+    /* width: 50px; */
+    background: rgb(82, 76, 76);
+}
+.display{
+    grid-area:display;
+
+}
+.btn-ac{
+    grid-area:ac;
+
+}
+.btn-c{
+    grid-area:c;
+
+    
+}
+.btn-perc{
+    grid-area:perc;
+
+}
+.btn-divide{
+    grid-area:divide;
+
+}
+.btn-7{
+    grid-area:btn7;
+
+}
+.btn-8{
+    grid-area:btn8;
+
+}
+.btn-9{
+    grid-area:btn9;
+
+}
+.btn-x{
+    grid-area:btnx;
+
+}
+.btn-4{
+    grid-area:btn4;
+
+}
+.btn-5{
+    grid-area:btn5;
+
+}
+.btn-6{
+    grid-area:btn6;
+
+}
+.btn-minus{
+    grid-area:minus;
+
+}
+.btn-1{
+    grid-area:btn1;
+
+}
+.btn-2{
+    grid-area:btn2;
+
+}
+.btn-3{
+    grid-area:btn3;
+
+}
+.btn-plus{
+    grid-area:plus;
+
+}
+.btn-0{
+    grid-area:btn0;
+
+}
+.btn-dot{
+    grid-area:dot;
+
+}
+.btn-equals{
+    grid-area:equals;
+
+}
