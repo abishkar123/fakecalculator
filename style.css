@@ -23,9 +23,9 @@ body{
     backdrop-filter: blur(10px);
 
     
-    
     gap: 1rem;
     display:grid;
+    
     grid-template-areas: 
     "display display display display" 
     "ac c perc divide"
@@ -145,3 +145,19 @@ body{
      
 
 }
+.prank{
+    animation:shake 0.5s ease-in;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(10px);
+    }
+
+    50%{
+        transform: translateX(10px);
+    }
+ 
+   100%{
+    transform: translateX(10px);
+}}
+
